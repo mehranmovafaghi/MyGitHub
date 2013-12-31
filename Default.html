@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="ContentBox.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="s4.ico">
+    <meta name="description" content="This is a web interface on common use of Powershell Script">
+    <meta name="keywords" content="IT Tool">
+    <meta name="author" content="Mehran Movafaghi">
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    <div style="position:relative;">
+    <div id="banner"><br /><h1>IT.S4communications.com</h1></div>
+    <!--= Content Here =-->
+ 
+        <div class="container">
+        <div class="titlebox">Find Logged in Username</div>
+        <div class="contentbox">Please Enter the PC Name :
+                <asp:TextBox ID="PowerShellCodeBox" runat="server" TextMode="SingleLine" BackColor="Black" ForeColor="White" Width="161px" BorderColor="#CC3300" BorderStyle="Solid"></asp:TextBox>
+            <br />
+                <asp:Button ID="ExecuteCode" runat="server" Text="Find" Width="200" onclick="ExecuteCode_Click" Visible="False" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text=".: FIND :." Font-Bold="True" Width="169px" />
+            <br />
+                <asp:TextBox  ID="ResultBox" TextMode="MultiLine" BackColor="Black" ForeColor="White" runat="server" Height="126px" Width="365px" BorderColor="#CC3300" BorderStyle="Solid"></asp:TextBox>
+            
+            </div>
+            </div>
+        <div class="container">
+        <div class="titlebox">Find PC-Name!</div>
+        <div class="contentbox">Enter the UserName:
+            <asp:TextBox ID="Uname" runat="server"></asp:TextBox>
+            <br />
+            Enter range of PC group:
+            <asp:TextBox ID="Prange" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="find PC-Name" Font-Bold="True" />
+            <br />
+            <asp:TextBox ID="TextBox2" runat="server" Height="121px" TextMode="MultiLine" Width="350px"></asp:TextBox>
+            </div>
+            </div>
+        <div class="container">
+        <div class="titlebox">Change Windows Logon Background</div>
+        <div class="contentbox">Enter range of PC group
+            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="Button3" runat="server" Font-Bold="True" OnClick="Button3_Click" Text=".: COPY :." />
+            <br />
+            <asp:TextBox ID="TextBox4" runat="server" Height="145px" TextMode="MultiLine" Width="363px"></asp:TextBox>
+            </div>
+            </div>
+        <div class="container">
+        <div class="titlebox">Install Microsoft Forefront Endpoint Protection</div>
+        <div class="contentbox">Enter PC name:
+            <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="Button44" runat="server" Font-Bold="True" OnClick="Button44_Click" Text=".: INSTALL :." />
+            <br />
+            <asp:TextBox ID="TextBox55" runat="server" Height="145px" TextMode="MultiLine" Width="363px"></asp:TextBox>
+            </div>
+            </div>
+        <div class="container">
+        <div class="titlebox">My First Program here!</div>
+        <div class="contentbox">My First Program here!</div>
+            </div>
+        <div class="container">
+        <div class="titlebox">My First Program here!</div>
+        <div class="contentbox">My First Program here!</div>
+            </div>
+        <div class="container">
+        <div class="titlebox">My First Program here!</div>
+        <div class="contentbox">My First Program here!</div>
+            </div>
+        <div class="container">
+        <div class="titlebox">My First Program here!</div>
+        <div class="contentbox">My First Program here!</div>
+            </div>
+        <div class="container">
+        <div class="titlebox">My First Program here!</div>
+        <div class="contentbox">My First Program here!</div>
+            </div>
+        <div class="container">
+        <div class="titlebox">My First Program here!</div>
+        <div class="contentbox">My First Program here!</div>
+            </div>
+    </div>
+
+    <!-- div style="width:100%; min-width:800px; height:20px; background-color:#808080; text-align:center; font-size:10px; font-family:Verdana; padding-top:4px; bottom:0; border-top:solid 2px #ff6a00; font-weight:bold;">IT@s4communications.com | CopyRight &copy All Right reserved.</!-->
+    <div style="width:100%; height:30px; clear:both; background-color:#ff6a00; font-size: 10px; text-align:center;  padding-top:6px;"><b>Design by: </b><a href="mailto:mehran.movafaghi@s4communications.com">Mehran Movafaghi</div>
+</form>
+</body>
+</html>
