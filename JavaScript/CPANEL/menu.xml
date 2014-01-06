@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <link>
+    <title>Link #1</title>
+    <href>#</href>
+  </link>
+  <link>
+    <title>Link #2</title>
+    <href>#</href>
+  </link>
+  <link>
+    <title>Link #3</title>
+    <href>#</href>
+  </link>
+  <link>
+    <title>Link #4</title>
+    <href>#</href>
+  </link>
+  <link>
+    <title>Link #5</title>
+    <href>#</href>
+  </link>
+</Menu>
